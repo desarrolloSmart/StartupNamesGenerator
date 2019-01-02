@@ -81,7 +81,7 @@ class RandomWordsState extends State<RandomWords> {
       },
     );
   }
-
+//Metodo para activar el evento de la lista
   void _pushSaved() {
     Navigator.of(context).push(
       new MaterialPageRoute<void>(
